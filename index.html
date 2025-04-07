@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z' /%3E%3C/svg%3E" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AquaVida - Beneficios del Agua</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="droplet-icon"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+                <span>AquaVida</span>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#proveedores">Proveedores</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="inicio">
+        <div class="hero-content">
+            <h1 class="animate-title">Beneficios del Agua</h1>
+            <p class="animate-subtitle">Descubre por qué el agua es esencial para tu salud</p>
+        </div>
+        <div class="wave"></div>
+    </header>
+
+    <section id="beneficios" class="benefits">
+        <div class="benefit-item">
+            <div class="benefit-image">
+                <img src="https://images.unsplash.com/photo-1542640244-7e672d6cef4e?auto=format&fit=crop&q=80&w=2070" alt="Digestión">
+            </div>
+            <div class="benefit-content">
+                <h2>Mejora la Digestión</h2>
+                <p>El agua es esencial para el proceso digestivo, ayudando a descomponer los alimentos y facilitar la absorción de nutrientes.</p>
+            </div>
+        </div>
+
+        <div class="benefit-item reverse">
+            <div class="benefit-image">
+                <img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&q=80&w=2070" alt="Energía">
+            </div>
+            <div class="benefit-content">
+                <h2>Aumenta la Energía</h2>
+                <p>La hidratación adecuada ayuda a mantener los niveles de energía y mejora el rendimiento físico y mental.</p>
+            </div>
+        </div>
+
+        <div class="benefit-item">
+            <div class="benefit-image">
+                <img src="https://images.unsplash.com/photo-1514997130083-2304083899de?auto=format&fit=crop&q=80&w=2070" alt="Piel">
+            </div>
+            <div class="benefit-content">
+                <h2>Salud de la Piel</h2>
+                <p>El agua mantiene la piel hidratada, mejorando su elasticidad y apariencia general.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proveedores" class="providers">
+        <h2>Nuestros Proveedores</h2>
+        <div class="provider-grid">
+            <div class="provider-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1560023907-5f339c7c8d45?auto=format&fit=crop&q=80&w=2070" alt="Aqua Pure">
+                </div>
+                <div class="card-content">
+                    <h3>Aqua Pure</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="provider-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1553531580-a000ac8df244?auto=format&fit=crop&q=80&w=2070" alt="Crystal Springs">
+                </div>
+                <div class="card-content">
+                    <h3>Crystal Springs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="provider-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1566724356302-c2aa59de9dda?auto=format&fit=crop&q=80&w=2070" alt="Mountain Fresh">
+                </div>
+                <div class="card-content">
+                    <h3>Mountain Fresh</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="provider-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&q=80&w=2070" alt="Natural Flow">
+                </div>
+                <div class="card-content">
+                    <h3>Natural Flow</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> AquaVida. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Update year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Intersection Observer for animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.benefit-item, .provider-card').forEach((el) => observer.observe(el));
+    </script>
+</body>
+</html>
